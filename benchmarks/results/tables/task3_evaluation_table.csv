@@ -1,0 +1,7 @@
+Estimator,Trajectory,ATE mean (m),ATE std (m),ATE RMSE (m),RTE 1m trans (m),Vel RMSE (m/s),Att RMSE (°)
+Dead Reckoning,B2_circle_slow_rep01,89.623,92.306,128.657,24.242,—,—
+Comp. Filter (att.),B2_circle_slow_rep01,† (Vicon pos),—,—,—,—,24.18
+Onboard EKF,B2_circle_slow_rep01,0.279,0.197,0.342,0.134,0.487,4.22
+Dead Reckoning,B3_figure8_fast_rep01,32.227,19.142,37.483,3.503,—,—
+Comp. Filter (att.),B3_figure8_fast_rep01,† (Vicon pos),—,—,—,—,3.09
+Onboard EKF,B3_figure8_fast_rep01,0.003,0.002,0.004,0.004,0.081,4.14

@@ -1,0 +1,26 @@
+battery_voltage_end: 3.8217010498046875
+battery_voltage_start: 3.969501495361328
+category: tracking
+crazyflie_id: CF_01
+firmware_version: 2025.12.1
+params:
+  altitude_m: 1.0
+  duration_s: 30.0
+  radius_m: 1.0
+  speed_mps: 0.5
+recording_end_utc: 20260305T054354Z
+recording_start_utc: 20260305T054312Z
+repetition: 1
+row_counts:
+  attitude: 4080
+  attitude_qw: 3726
+  estimator: 4154
+  estimator_acc: 4111
+  imu: 3797
+  motor: 4142
+  pid_output: 3804
+  power: 416
+  setpoint: 3711
+  vicon: 4226
+trajectory_id: B8_star_slow
+trajectory_type: star

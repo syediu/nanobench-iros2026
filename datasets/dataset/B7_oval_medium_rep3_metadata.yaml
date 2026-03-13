@@ -1,0 +1,27 @@
+battery_voltage_end: 4.059237480163574
+battery_voltage_start: 4.228152751922607
+category: tracking
+crazyflie_id: CF_01
+firmware_version: 2025.12.1
+params:
+  altitude_m: 1.0
+  duration_s: 30.0
+  radius_x_m: 1.5
+  radius_y_m: 0.7
+  speed_mps: 0.75
+recording_end_utc: 20260304T222340Z
+recording_start_utc: 20260304T222258Z
+repetition: 1
+row_counts:
+  attitude: 4215
+  attitude_qw: 4220
+  estimator: 4223
+  estimator_acc: 4213
+  imu: 4210
+  motor: 4218
+  pid_output: 4195
+  power: 422
+  setpoint: 4191
+  vicon: 4230
+trajectory_id: B7_oval_medium
+trajectory_type: oval

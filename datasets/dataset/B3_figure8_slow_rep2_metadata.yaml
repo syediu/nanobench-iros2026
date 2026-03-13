@@ -1,0 +1,26 @@
+battery_voltage_end: 4.048680305480957
+battery_voltage_start: 4.170087814331055
+category: tracking
+crazyflie_id: CF_01
+firmware_version: 2025.12.1
+params:
+  altitude_m: 1.0
+  duration_s: 30.0
+  scale_m: 1.0
+  speed_mps: 0.5
+recording_end_utc: 20260305T035603Z
+recording_start_utc: 20260305T035520Z
+repetition: 1
+row_counts:
+  attitude: 3697
+  attitude_qw: 3912
+  estimator: 3943
+  estimator_acc: 3881
+  imu: 3170
+  motor: 3764
+  pid_output: 3245
+  power: 335
+  setpoint: 3727
+  vicon: 4227
+trajectory_id: B3_figure8_slow
+trajectory_type: figure_eight

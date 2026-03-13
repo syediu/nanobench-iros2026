@@ -1,0 +1,15 @@
+\begin{table}
+\caption{System identification model comparison. RMSE of predicted vertical acceleration (m/s²). n={}}
+\label{tab:sysid}
+\begin{tabular}{llllll}
+\toprule
+ & RMSE >4.0V (fresh) & RMSE 3.8-4.0V (mid) & RMSE <3.8V (depleted) & RMSE overall (m/s²) & R² \\
+Model &  &  &  &  &  \\
+\midrule
+Constant gain & — & — & 36.735 & 36.735 & -2434.785 \\
+Time-indexed & — & — & 21.981 & 21.981 & -8978.773 \\
+Linear regression & — & — & 2.171 & 2.171 & -0.259 \\
+Voltage-conditioned & — & — & 254.547 & 254.547 & -10146.020 \\
+\bottomrule
+\end{tabular}
+\end{table}

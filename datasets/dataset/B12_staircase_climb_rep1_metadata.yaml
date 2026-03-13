@@ -1,0 +1,29 @@
+battery_voltage_end: 3.2727272510528564
+battery_voltage_start: 3.969501495361328
+category: tracking
+crazyflie_id: CF_01
+firmware_version: 2025.12.1
+params:
+  altitude_m: 0.5
+  duration_s: 60.0
+  hold_time_s: 2.0
+  speed_mps: 0.3
+  step_m: 0.5
+  x_max_m: 1.5
+  z_climb_m: 0.9
+recording_end_utc: 20260302T135512Z
+recording_start_utc: 20260302T135359Z
+repetition: 1
+row_counts:
+  attitude: 3954
+  attitude_qw: 4141
+  estimator: 3676
+  estimator_acc: 4130
+  imu: 4151
+  motor: 3883
+  pid_output: 3557
+  power: 414
+  setpoint: 4120
+  vicon: 7225
+trajectory_id: B12_staircase_climb
+trajectory_type: staircase_climb

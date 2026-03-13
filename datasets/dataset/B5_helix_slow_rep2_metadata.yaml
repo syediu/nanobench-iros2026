@@ -1,0 +1,27 @@
+battery_voltage_end: 3.8639297485351562
+battery_voltage_start: 4.14897346496582
+category: tracking
+crazyflie_id: CF_01
+firmware_version: 2025.12.1
+params:
+  altitude_end_m: 1.5
+  altitude_start_m: 0.5
+  duration_s: 30.0
+  radius_m: 1.0
+  speed_mps: 0.5
+recording_end_utc: 20260305T041753Z
+recording_start_utc: 20260305T041711Z
+repetition: 1
+row_counts:
+  attitude: 4193
+  attitude_qw: 4187
+  estimator: 4191
+  estimator_acc: 3958
+  imu: 4178
+  motor: 4054
+  pid_output: 4156
+  power: 415
+  setpoint: 4052
+  vicon: 4226
+trajectory_id: B5_helix_slow
+trajectory_type: helix

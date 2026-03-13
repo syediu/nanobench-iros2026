@@ -1,0 +1,18 @@
+\begin{table}[t]
+\caption{Tracking performance on the trefoil trajectory. \emph{Real}: actual flight with Vicon; \emph{Sim}: closed-loop rollout through a learned dynamics model.}
+\label{tab:task2_combined}
+\centering
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{llcccccc}
+\toprule
+Controller & Domain & RMSE\,(m)\,$\downarrow$ & MAE\,(m)\,$\downarrow$ & Max\,(m)\,$\downarrow$ & FDE\,(m)\,$\downarrow$ & Vel.\,RMSE\,(m/s)\,$\downarrow$ & Head.\,Err.\,($^\circ$)\,$\downarrow$ \\
+\midrule
+PID & Real & 0.293\,{\scriptsize$\pm$\,0.034} & 0.265\,{\scriptsize$\pm$\,0.021} & 0.859\,{\scriptsize$\pm$\,0.232} & 0.609\,{\scriptsize$\pm$\,0.414} & 0.725\,{\scriptsize$\pm$\,0.136} & 5.825\,{\scriptsize$\pm$\,0.583} \\
+Mellinger & Real & 0.283\,{\scriptsize$\pm$\,0.002} & 0.270\,{\scriptsize$\pm$\,0.002} & \textbf{0.484\,{\scriptsize$\pm$\,0.092}} & 0.419\,{\scriptsize$\pm$\,0.170} & 0.886\,{\scriptsize$\pm$\,0.177} & 5.273\,{\scriptsize$\pm$\,1.606} \\
+\midrule
+BC-MLP & Sim & \textbf{0.147} & \textbf{0.132} & --- & 0.166 & \textbf{0.192} & 1.072 \\
+BC-LSTM & Sim & 0.181 & 0.158 & --- & \textbf{0.094} & 0.222 & \textbf{0.975} \\
+MPPI & Sim & 1.315 & 1.127 & --- & 1.996 & 0.721 & 4.496 \\
+\bottomrule
+\end{tabular}
+\end{table}

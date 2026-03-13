@@ -1,0 +1,29 @@
+battery_voltage_end: 3.906158447265625
+battery_voltage_start: 4.18064546585083
+category: tracking
+crazyflie_id: CF_01
+firmware_version: 2025.12.1
+params:
+  altitude_m: 1.0
+  distance_m: 1.0
+  duration_s: 20.0
+  speeds_mps:
+  - 0.25
+  - 0.5
+  - 1.0
+recording_end_utc: 20260304T213458Z
+recording_start_utc: 20260304T213425Z
+repetition: 1
+row_counts:
+  attitude: 3172
+  attitude_qw: 1436
+  estimator: 2885
+  estimator_acc: 2912
+  imu: 3096
+  motor: 2872
+  pid_output: 2966
+  power: 310
+  setpoint: 3195
+  vicon: 3220
+trajectory_id: B6_linear_ramp
+trajectory_type: linear_ramp

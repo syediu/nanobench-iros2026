@@ -1,0 +1,30 @@
+battery_voltage_end: 3.932551383972168
+battery_voltage_start: 4.170087814331055
+category: tracking
+crazyflie_id: CF_01
+firmware_version: 2025.12.1
+params:
+  altitude_m: 1.0
+  amplitude_x_m: 0.6
+  amplitude_y_m: 0.6
+  duration_s: 30.0
+  freq_x: 3
+  freq_y: 2
+  phase_deg: 90.0
+  speed_mps: 1.0
+recording_end_utc: 20260302T054321Z
+recording_start_utc: 20260302T054239Z
+repetition: 1
+row_counts:
+  attitude: 3562
+  attitude_qw: 3603
+  estimator: 3384
+  estimator_acc: 3849
+  imu: 3409
+  motor: 3819
+  pid_output: 3585
+  power: 353
+  setpoint: 3314
+  vicon: 4221
+trajectory_id: B10_lissajous_fast
+trajectory_type: lissajous

@@ -1,0 +1,24 @@
+battery_voltage_end: 3.906158447265625
+battery_voltage_start: 4.175366401672363
+category: aggressive
+crazyflie_id: CF_01
+firmware_version: 2025.12.1
+params:
+  altitude_m: 1.0
+  min_voltage: 3.2
+recording_end_utc: 20260302T153641Z
+recording_start_utc: 20260302T153500Z
+repetition: 1
+row_counts:
+  attitude: 9637
+  attitude_qw: 9182
+  estimator: 9938
+  estimator_acc: 9500
+  imu: 9887
+  motor: 9663
+  pid_output: 9216
+  power: 988
+  setpoint: 6001
+  vicon: 9127
+trajectory_id: C4_battery_drain
+trajectory_type: hover_until_landing

@@ -1,0 +1,32 @@
+battery_voltage_end: 3.9642229080200195
+battery_voltage_start: 4.170087814331055
+category: excitation
+crazyflie_id: CF_01
+firmware_version: 2025.12.1
+params:
+  altitude_m: 1.1
+  duration_s: 60.0
+  fade_s: 2.0
+  freq_max_hz: 5.0
+  freq_min_hz: 0.1
+  num_components: 15
+  period_s: 30.0
+  x_amplitude_m: 0.8
+  y_amplitude_m: 0.8
+  z_amplitude_m: 0.35
+recording_end_utc: 20260302T134631Z
+recording_start_utc: 20260302T134519Z
+repetition: 1
+row_counts:
+  attitude: 6866
+  attitude_qw: 4939
+  estimator: 6857
+  estimator_acc: 6615
+  imu: 6982
+  motor: 5557
+  pid_output: 7052
+  power: 642
+  setpoint: 7012
+  vicon: 7224
+trajectory_id: A1b_multisine_sysid
+trajectory_type: multisine_sysid

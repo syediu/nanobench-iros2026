@@ -1,0 +1,27 @@
+battery_voltage_end: 3.995894432067871
+battery_voltage_start: 4.154252052307129
+category: tracking
+crazyflie_id: CF_01
+firmware_version: 2025.12.1
+params:
+  altitude_m: 1.0
+  duration_s: 15.0
+  scale_m: 1.0
+  speed_mps: 0.5
+  z_amplitude_m: 0.15
+recording_end_utc: 20260302T052406Z
+recording_start_utc: 20260302T052339Z
+repetition: 1
+row_counts:
+  attitude: 2441
+  attitude_qw: 2481
+  estimator: 2394
+  estimator_acc: 2447
+  imu: 2463
+  motor: 2194
+  pid_output: 2165
+  power: 229
+  setpoint: 1994
+  vicon: 2726
+trajectory_id: B9_trefoil_slow
+trajectory_type: trefoil

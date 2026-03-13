@@ -1,0 +1,33 @@
+battery_voltage_end: 3.869208335876465
+battery_voltage_start: 4.170087814331055
+category: tracking
+crazyflie_id: CF_01
+firmware_version: 2025.12.1
+params:
+  altitude_m: 1.1
+  duration_s: 60.0
+  num_waypoints: 15
+  seed: 42
+  speed_mps: 0.75
+  x_max_m: 2.0
+  x_min_m: -1.0
+  y_max_m: 1.0
+  y_min_m: -1.7
+  z_max_m: 1.5
+  z_min_m: 0.7
+recording_end_utc: 20260302T055713Z
+recording_start_utc: 20260302T055600Z
+repetition: 1
+row_counts:
+  attitude: 5976
+  attitude_qw: 6502
+  estimator: 6426
+  estimator_acc: 6387
+  imu: 6509
+  motor: 6484
+  pid_output: 4490
+  power: 633
+  setpoint: 6291
+  vicon: 7226
+trajectory_id: B11_random_waypoints
+trajectory_type: random_waypoints
